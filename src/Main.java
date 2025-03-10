@@ -8,7 +8,7 @@ public class Main {
     }
     /* Initialisation d'un jeu avec le terrain initial décrit dans
        le fichier [f] donné en paramètre */
-    public Jeu(String f) {
+    public Main(String f) {
         this.terrain = new Terrain(f);
     }
 

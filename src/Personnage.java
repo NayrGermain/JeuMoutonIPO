@@ -17,7 +17,7 @@ public class Personnage extends EntiteMobile {
         else if (cible instanceof Sortie) {
             this.sort();
             courante.vide();
-            Jeu.increSortis();
+            Main.increSortis();
         }else {
             if(cible.estLibre()){
                 cible.entre(this);

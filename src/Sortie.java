@@ -9,7 +9,7 @@ public class Sortie extends CaseTraversable{
     public void entre(Entite e){
         if (e instanceof Personnage) {
             e.sort();
-            Jeu.sortis++;
+            Main.sortis++;
         }else{
             e.nouvelleDir();
         }
